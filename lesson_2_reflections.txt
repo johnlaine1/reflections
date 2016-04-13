@@ -1,0 +1,17 @@
+Q: What happens when you initialize a repository? Why do you need to do it?
+
+A: A directory named .git is created with metadata about the repo. This is
+what creates the repo and is the first step.
+
+//////////
+
+Q: How is the staging area different from the working directory and the repository?
+What value do you thin it offers?
+
+A: The staging area is a temporary container that holds the files before they area
+commited to the repo. They are not part of the repo yet.
+I think it's value is in that it helps you logically put different files together
+and commit them together as a whole. Maybe you have 10 files to commit, but 3 of 
+them really belong together and separate from the rest. You can put the 3 files in
+the staging area, commit them, add a related message like "Great new feature" and
+then stage and commit the other files.
