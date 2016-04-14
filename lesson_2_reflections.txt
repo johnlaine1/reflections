@@ -11,7 +11,7 @@ What value do you thin it offers?
 A: The staging area is a temporary container that holds the files before they area
 commited to the repo. They are not part of the repo yet.
 I think it's value is in that it helps you logically put different files together
-and commit them together as a whole. Maybe you have 10 files to commit, but 3 of 
+and commit them together as a whole. Maybe you have 10 files to commit, but 3 of
 them really belong together and separate from the rest. You can put the 3 files in
 the staging area, commit them, add a related message like "Great new feature" and
 then stage and commit the other files.
@@ -25,7 +25,7 @@ then commit and repeat.
 
 //////////
 
-Q: What are some situations when branches would be helpful in keeping your history organized? 
+Q: What are some situations when branches would be helpful in keeping your history organized?
 How would branches help?
 
 A: If you had multiple bugs or features that you were working on at one time, you can
@@ -33,3 +33,31 @@ create a branch for each and work on each separately. Then when the item is fini
 it back into the master.
 
 //////////
+
+Q: How do the diagrams help you visualilze the branch structure?
+A: They allow me to view the data in a different way. I can see how the different
+braches separate and go off on their own while the other branches continue on
+in their own way.
+
+/////////
+
+Q: What is the result of merging two branches together? Why do we represent it
+in the diagram the way we do?
+
+A: By merging two branches, that commit will have 2 parents, so you will have access
+to all commits on both branches. Also, when viewing with git log, all commits will
+appear in one branch.
+
+////////
+
+Q: What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+
+A: Automatically merging is faster and less prone to human error but gives the user
+less control over how the merge is conducted.
+Manual merging gives the user complete control at the expense of being slower and
+tedious, but in some instances it is necessary becuase git can't figure out every
+possible scenario of a conflict.
+
+//////////
+
+

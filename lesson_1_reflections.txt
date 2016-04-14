@@ -1,1 +1,2 @@
-I deleted all my reflections
+There was a horrible accident and of my reflections for lesson 1 were deleted.
+Kind of ironic since this course is about version control :)
