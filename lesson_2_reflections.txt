@@ -15,3 +15,21 @@ and commit them together as a whole. Maybe you have 10 files to commit, but 3 of
 them really belong together and separate from the rest. You can put the 3 files in
 the staging area, commit them, add a related message like "Great new feature" and
 then stage and commit the other files.
+
+//////////
+
+Q: How can you use the staging area to make sure you have one commit per logical change?
+A: You can use the staging area like a container to hold just the files that you
+want to commit. You put in all the files related to a feature, or bug fix, etc and
+then commit and repeat.
+
+//////////
+
+Q: What are some situations when branches would be helpful in keeping your history organized? 
+How would branches help?
+
+A: If you had multiple bugs or features that you were working on at one time, you can
+create a branch for each and work on each separately. Then when the item is finished you can merge
+it back into the master.
+
+//////////
