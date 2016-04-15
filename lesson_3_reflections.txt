@@ -1,3 +1,52 @@
 Q: When would you want to create a remote repository rather than keeping all your work locally?
 
-A: 
+A: In order to share with others or keep your code safe by having is saved in more than
+one location.
+
+/////////////
+
+Q: Why might you want to always pull changes manually rather than having Git automatically
+stay up-to-date with your remote repository?
+
+A: You may want to complete a bug fix or feature before pushing to the remote.
+
+///////////
+
+Q: Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+A: A fork is used on GitHub to make a copy of someone elses repository, this would be an
+   easy way to make a copy of someone elses work, you can then clone it to your computer.
+   Your copy of the repo is now independent of the original and will not be updated when the
+   original author updates the repo.
+   I would use this when I would like to use someone else's code as a starting point for my own
+   project.
+
+   A clone is used to make a copy of a repo, either from place to place on your own computer.
+   or from GitHub to your local computer. This will copy and then make a connection to the cloned
+   repo.
+   I would use this on my own projects hosted on GitHub, including projects that I haved forked from
+   other developers.
+
+   A branch is basically a label pointing to a commit. Once a branch is created and checked out, future commits on that
+   branch will be separate from other branches (eg. master) Code on other braches is unaffected.
+   When you create a branch you get access to the commit that it points to as well as every parent
+   of that commit, down the line to the first commit.
+
+   I would use a branch to fix a bug, create a new feature or try an experiment. Knowing that my master
+   branch is safe and will not be affected unless I merge the changes into it.
+
+///////////
+
+Q: What is the benefit of having a copy of the last known state of the remote stored locally?
+A: You can view the differences between it and your local copy and then decide whether to merge
+it with you local branch, make changes first, or discard it.
+
+Q: How would you collaborate without using Git or GitHub? What would be esier, and what would be harder?
+
+A: I would probably use files with a prefix of suffix added to the name, like a time stamp or something
+like that to tell them apart. And email to notify others about the changes that I want to make.
+I think perhaps this would be easier initally, instead of having to learn about Git and GitHub, but in
+the long run it is way easier and more effecient with Git and GitHub.
+
+////////////
+
